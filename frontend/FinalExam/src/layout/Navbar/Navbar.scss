@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// .nav-hero{
+//     margin: 0 auto;
+//     max-width: 1200px;  
+// }
+.nav{
+    height: 96px;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .honor{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+    a{
+        color: #000;
+        text-decoration: none;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a:hover{
+        color: #f16821;;
+    }
+
+}
