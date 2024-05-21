@@ -1,6 +1,7 @@
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
 
-const cardSchema = mongoose.Schema({
+const cardSchema = mongoose.Schema(
+  {
     // name: {
     //     type: String,
     //     required: true,
@@ -14,10 +15,13 @@ const cardSchema = mongoose.Schema({
     // profilePictures: String,
     // friends: Array,
     // images: Array,
+    image: String,
     title: String,
     rating: Number,
     likes: Number,
     description: String,
-}, { collection: "User", timeStamps: true })
+  },
+  { collection: "User", timeStamps: true }
+);
 
-module.exports = mongoose.model("User", cardSchema)
+module.exports = mongoose.model("User", cardSchema);

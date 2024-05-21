@@ -1,0 +1,93 @@
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  .footer-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-about {
+    h1 {
+      font-size: 20px;
+      color: #000;
+      font-weight: bolder;
+    }
+    p {
+      width: 286px;
+      height: 100px;
+      color: #737373;
+      margin-top: 20px;
+    }
+  }
+  .footer-quick {
+    h1 {
+      font-size: 20px;
+      color: #000;
+      font-weight: bolder;
+    }
+    a {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: #999999;
+    }
+    a:hover {
+      color: black;
+    }
+  }
+  .footer-follow {
+    h1 {
+      font-size: 16px;
+    }
+    .footer-icons {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  .footer-product {
+    h1 {
+      font-size: 16px;
+      color: #000;
+      font-weight: bolder;
+      margin-bottom: 20px;
+    }
+    img {
+      width: 255px;
+      height: 255px;
+    }
+    h3 {
+      margin-top: 10px;
+      font-size: 1.25rem;
+      color: #000;
+    }
+    p {
+      color: #000;
+      margin-top: 10px;
+    }
+    button {
+      width: 129px;
+      height: 34px;
+      background-color: black;
+      color: white;
+      border: none;
+      font-weight: bolder;
+      margin-top: 15px;
+    }
+    button:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+  .footer-finis {
+    margin-top: 100px;
+    text-align: center;
+    color: #737373;
+    font-size: 1rem;
+  }
+}
